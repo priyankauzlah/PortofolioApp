@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Portofolio App</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_android">Android</string>
+    <string name="txt_flutter">Flutter</string>
+    <string name="txt_uiux">UIUX</string>
+    <string name="txt_experiences">Experiences</string>
+    <string name="txt_setting">Setting</string>
+    <string name="txt_imageview">ImageView</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_portfolio">Portfolio</string>
+    <string name="txt_documentation_link">Documentation Link</string>
+    <string name="greg_paul">Greg Paul</string>
+</resources>
