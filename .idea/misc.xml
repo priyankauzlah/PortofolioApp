@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/drawable/uiux.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/fragment_android.xml" value="0.1" />
-        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/fragment_flutter.xml" value="0.1" />
+        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/fragment_android.xml" value="0.176" />
+        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/fragment_experience.xml" value="0.25" />
+        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/fragment_flutter.xml" value="0.2" />
+        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
         <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/item_experience.xml" value="0.1" />
-        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/navdrawer_menu.xml" value="0.1" />
+        <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/layout/navdrawer_menu.xml" value="0.264" />
         <entry key="..\:/Users/UZL/Documents/IDN stuff/Kelas 11/Mobile Programming/PortofolioApp/app/src/main/res/menu/main_menu.xml" value="0.1" />
       </map>
     </option>

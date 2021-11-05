@@ -11,4 +11,7 @@
     <string name="txt_portfolio">Portfolio</string>
     <string name="txt_documentation_link">Documentation Link</string>
     <string name="greg_paul">Greg Paul</string>
+    <string name="_50_apps_android">50 Apps Android</string>
+    <string name="_32_apps_flutter">32 Apps Flutter</string>
+    <string name="career">Career</string>
 </resources>

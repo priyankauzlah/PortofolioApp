@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/profile_background"
     tools:context=".FlutterFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/tvDokumentasiFlutter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/txt_documentation_link"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintEnd_toStartOf="@id/btnFlutter"
+        app:layout_constraintStart_toStartOf="@id/rvFlutter"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btnFlutter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="@string/_32_apps_flutter"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDokumentasiFlutter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/tvDokumentasiFlutter"
+        app:layout_constraintTop_toTopOf="@id/tvDokumentasiFlutter" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFlutter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnFlutter"
+        app:spanCount="2"
+        tools:itemCount="15"
+        tools:listitem="@layout/item_app" />
+</androidx.constraintlayout.widget.ConstraintLayout>
