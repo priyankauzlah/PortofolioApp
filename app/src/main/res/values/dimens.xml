@@ -10,4 +10,5 @@
     <dimen name="_32dp">32dp</dimen>
     <dimen name="_10pd">10dp</dimen>
     <dimen name="_21dp">21dp</dimen>
+    <dimen name="_24sp">24sp</dimen>
 </resources>

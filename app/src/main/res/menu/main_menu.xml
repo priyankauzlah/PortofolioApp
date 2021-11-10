@@ -30,11 +30,4 @@
         android:id="@+id/actionSetting"
         android:icon="@drawable/setting"
         android:title="@string/txt_setting" />
-
-
-
-
-
-
-
 </menu>

@@ -8,7 +8,7 @@
     tools:context=".FlutterFragment">
 
     <TextView
-        android:id="@+id/tvDokumentasiFlutter"
+        android:id="@+id/tvDokumentasiUIUX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -16,32 +16,32 @@
         android:text="@string/txt_documentation_link"
         android:textColor="@color/blue"
         android:textSize="@dimen/_16sp"
-        app:layout_constraintEnd_toStartOf="@id/btnFlutter"
-        app:layout_constraintStart_toStartOf="@id/rvFlutter"
+        app:layout_constraintEnd_toStartOf="@id/btnUIUX"
+        app:layout_constraintStart_toStartOf="@id/rvUIUX"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnFlutter"
+        android:id="@+id/btnUIUX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blue"
         android:text="@string/_32_apps_flutter"
         android:textSize="@dimen/_16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvDokumentasiFlutter"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDokumentasiUIUX"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@id/tvDokumentasiFlutter"
-        app:layout_constraintTop_toTopOf="@id/tvDokumentasiFlutter" />
+        app:layout_constraintStart_toEndOf="@id/tvDokumentasiUIUX"
+        app:layout_constraintTop_toTopOf="@id/tvDokumentasiUIUX" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvFlutter"
+        android:id="@+id/rvUIUX"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnFlutter"
+        app:layout_constraintTop_toBottomOf="@id/btnUIUX"
         app:spanCount="2"
         tools:itemCount="15"
         tools:listitem="@layout/item_app" />
