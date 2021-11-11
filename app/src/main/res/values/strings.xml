@@ -16,4 +16,5 @@
     <string name="career">Career</string>
     <string name="about">About</string>
     <string name="content">Content</string>
+    <string name="app_android_btn">%s App Android</string>
 </resources>

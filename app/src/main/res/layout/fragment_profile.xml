@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/profile_background"
-    tools:context=".ProfileFragment">
+    tools:context=".ui.profile.ProfileFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -60,10 +60,12 @@
             android:id="@+id/cvLinkedinProfile"
             android:layout_width="@dimen/_56dp"
             android:layout_height="@dimen/_56dp"
-            android:layout_marginStart="@dimen/_32dp"
+            android:layout_marginStart="@dimen/_45dp"
             android:layout_marginTop="@dimen/_16dp"
             android:backgroundTint="@color/orange"
             app:cardCornerRadius="@dimen/_10pd"
+            app:layout_constraintEnd_toStartOf="@id/cvGithubProfile"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvCareerProfile">
 
@@ -89,6 +91,8 @@
             app:cardCornerRadius="@dimen/_10pd"
             app:layout_constraintBottom_toBottomOf="@id/cvLinkedinProfile"
             app:layout_constraintEnd_toEndOf="@id/cvEmailProfile"
+            app:layout_constraintEnd_toStartOf="@id/cvEmailProfile"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@id/cvLinkedinProfile"
             app:layout_constraintTop_toTopOf="@id/cvLinkedinProfile">
 
@@ -137,7 +141,6 @@
             android:backgroundTint="@color/orange"
             app:cardCornerRadius="@dimen/_10pd"
             app:layout_constraintBottom_toBottomOf="@id/cvEmailProfile"
-            app:layout_constraintEnd_toStartOf="@id/cvPhoneProfile"
             app:layout_constraintStart_toEndOf="@id/cvEmailProfile"
             app:layout_constraintTop_toTopOf="@id/cvEmailProfile">
 
@@ -205,9 +208,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/content" />
                 </androidx.core.widget.NestedScrollView>
-
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.card.MaterialCardView>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

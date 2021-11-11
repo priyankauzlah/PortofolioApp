@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/experienceFragment"
-        android:name="com.uzlahpri.portofolioapp.ExperienceFragment"
+        android:name="com.uzlahpri.portofolioapp.ui.experience.ExperienceFragment"
         android:label="fragment_experience"
         tools:layout="@layout/fragment_experience" >
         <action
@@ -16,27 +16,27 @@
     </fragment>
     <fragment
         android:id="@+id/androidFragment"
-        android:name="com.uzlahpri.portofolioapp.AndroidFragment"
+        android:name="com.uzlahpri.portofolioapp.ui.android.AndroidFragment"
         android:label="fragment_android"
         tools:layout="@layout/fragment_android" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.uzlahpri.portofolioapp.ProfileFragment"
+        android:name="com.uzlahpri.portofolioapp.ui.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/flutterFragment"
-        android:name="com.uzlahpri.portofolioapp.FlutterFragment"
+        android:name="com.uzlahpri.portofolioapp.ui.FlutterFragment"
         android:label="fragment_flutter"
         tools:layout="@layout/fragment_flutter" />
     <fragment
         android:id="@+id/UIUXFragment"
-        android:name="com.uzlahpri.portofolioapp.UIUXFragment"
+        android:name="com.uzlahpri.portofolioapp.ui.UIUXFragment"
         android:label="fragment_uiux"
         tools:layout="@layout/fragment_uiux" />
     <fragment
         android:id="@+id/detailExperiencesFragment"
-        android:name="com.uzlahpri.portofolioapp.DetailExperiencesFragment"
+        android:name="com.uzlahpri.portofolioapp.ui.experience.DetailExperiencesFragment"
         android:label="fragment_detail_experiences"
         tools:layout="@layout/fragment_detail_experiences" />
 </navigation>
